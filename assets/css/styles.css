@@ -335,6 +335,10 @@ button {
 .button:hover {
   box-shadow: 0 4px 12px hsl(228, 66%, 45%, 0.25);
 }
+
+.nav__button {
+  display: none;
+}
 /*=============== LOGOS ===============*/
 
 /*=============== POPULAR ===============*/
