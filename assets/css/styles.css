@@ -294,6 +294,12 @@ button {
   display: flex;
   justify-content: center;
 }
+
+.home__orbe {
+  width: 265px;
+  height: 284px;
+  background: linear-gradient(180deg, hsl(0, 0%));
+}
 /*=============== BUTTON ===============*/
 
 /*=============== LOGOS ===============*/
