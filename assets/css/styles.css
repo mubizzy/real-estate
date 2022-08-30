@@ -197,14 +197,19 @@ button {
     align-items: center;
   }
 
-  nav_link {
+  .nav_link {
     color: var(--text-color);
     display: flex;
     padding: 0.5rem;
     border-radius: 50%;
   }
 
-  .nav__link {
+  .nav__link i {
+    font-size: 1.25rem;
+  }
+
+  .nav__link span {
+    display: none;
   }
 }
 
