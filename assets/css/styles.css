@@ -246,6 +246,24 @@ button {
 
 .home__search {
   background-color: var(--body-color);
+  padding: 0.35rem 0.35rem 0.35rem 0.75rem;
+  display: flex;
+  align-items: center;
+  border-radius: 0.75rem;
+  border: 3px solid --text-color-light;
+  margin-bottom: 2rem;
+}
+
+.home__search i {
+  font-size: 1.25rem;
+  color: var(--first-color);
+}
+
+.home__search-input {
+  width: 90%;
+  background-color: var(--body-color);
+  color: var(--text-color);
+  margin: 0 0.5rem;
 }
 /*=============== BUTTON ===============*/
 
