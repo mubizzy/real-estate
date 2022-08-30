@@ -160,7 +160,7 @@ button {
 }
 
 .nav__logo {
-  /* color: #fff; */
+  color: #fff;
   font-weight: var(--font-medium);
   display: inline-flex;
   align-items: center;
@@ -225,7 +225,22 @@ button {
 
 .home__container {
   padding-top: 4rem;
-  row-gap: 3.5rem.;
+  row-gap: 3.5rem;
+}
+
+.home__title,
+.home__value-number {
+  color: #fff;
+}
+
+.home__title {
+  font-size: var(--biggest-font-size);
+  line-height: 120%;
+  margin-bottom: 1.25rem;
+}
+
+.home__description {
+  color: var(--text-color-light);
 }
 /*=============== BUTTON ===============*/
 
