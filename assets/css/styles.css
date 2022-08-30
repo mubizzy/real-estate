@@ -187,6 +187,14 @@ button {
     right: 0;
     margin: 0 auto;
     padding: 1.3rem 3rem;
+    border-radius: 1.25rem;
+    transition: 0.4s;
+  }
+
+  .nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 
