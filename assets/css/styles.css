@@ -280,6 +280,13 @@ button {
 }
 
 .home__value-number span {
+  color: var(--second-color);
+}
+
+.home__value-description {
+  display: flex;
+  color: var(--text-color-light);
+  font-size: var(--smaller-font-size);
 }
 /*=============== BUTTON ===============*/
 
@@ -312,4 +319,4 @@ button {
 
 /* For large devices */
 
-/* For 2K & 4K resolutions */
+/* For 2K & 4K resolutions */ ;
