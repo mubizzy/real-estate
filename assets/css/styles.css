@@ -158,6 +158,23 @@ button {
   justify-content: space-between;
   align-items: center;
 }
+
+.nav__logo {
+  /* color: #fff; */
+  font-weight: var(--font-medium);
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.25rem;
+  transition: 0.3s;
+}
+
+.nav__logo i {
+  font-style: 1rem;
+}
+
+.nav__logo:hover {
+  color: var(--first-color);
+}
 /* Change background header */
 
 /* Active link */
