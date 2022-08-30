@@ -298,7 +298,14 @@ button {
 .home__orbe {
   width: 265px;
   height: 284px;
-  background: linear-gradient(180deg, hsl(0, 0%));
+  background: linear-gradient(180deg, hsl(0, 0%, 16%) 93%);
+  border-radius: 135px 135px 0 0;
+}
+
+.home__img {
+  position: absolute;
+  width: 250px;
+  height: 300px;
 }
 /*=============== BUTTON ===============*/
 
