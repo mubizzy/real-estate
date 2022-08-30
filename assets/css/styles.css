@@ -218,7 +218,15 @@ button {
 /* Active link */
 
 /*=============== HOME ===============*/
+.home {
+  background: hsl(0, 0%, 22%);
+  padding-bottom: 0;
+}
 
+.home__container {
+  padding-top: 4rem;
+  row-gap: 3.5rem.;
+}
 /*=============== BUTTON ===============*/
 
 /*=============== LOGOS ===============*/
