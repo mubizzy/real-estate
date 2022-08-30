@@ -172,6 +172,17 @@ button {
   font-style: 1rem;
 }
 
+@media screen and (max-width:1024px){
+  .nav__menu{
+    position: fixed;
+    bottom: 2rem;
+    background-color: var(--container-color);
+  }
+}
+
+  
+}
+
 .nav__logo:hover {
   color: var(--first-color);
 }
