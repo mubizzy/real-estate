@@ -377,6 +377,19 @@ button {
   margin: 0 auto;
   transition: 0.4s;
 }
+
+.popular__img {
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.popular__data {
+  padding: 0 1rem 0.5rem;
+}
+
+.popular__price {
+  font-size: var(--h2-font-size);
+}
 /* Swiper class */
 
 /*=============== VALUE ===============*/
