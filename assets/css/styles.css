@@ -493,6 +493,7 @@ button {
   font-size: 18px;
   color: var(--first-color);
   transition: 0.3s;
+  margin-right: 0.75rem;
 }
 
 .value__accordion-title {
@@ -515,8 +516,14 @@ button {
 
 .value__accordion-description {
   font-size: var(--smaller-font-size);
+  padding: 1.25rem 2.5rem 0 2.75rem;
 }
 
+.value__accordion-content {
+  overflow: hidden;
+  height: 0;
+  transition: all 0.25s ease;
+}
 /*Rotate icon and add shadows*/
 
 /*=============== CONTACT ===============*/
