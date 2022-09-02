@@ -19,6 +19,7 @@ var swiperPopular = new Swiper(".popular__container", {
   },
 });
 /*=============== VALUE ACCORDION ===============*/
+const accordionItems = document.querySelectorAll(".value__accordion-item");
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
