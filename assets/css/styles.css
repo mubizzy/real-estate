@@ -460,7 +460,49 @@ button {
   border-radius: 125px 125px 12px 12px;
   inset: 0;
   margin: auto;
+  box-shadow: 0 16px 32px hsla(228, 66%, 25%, 0.25);
 }
+
+.value__description {
+  font-size: var(--small-font-size);
+  margin-bottom: 2rem;
+}
+
+.value__accordion {
+  display: grid;
+  row-gap: 1.5rem;
+}
+
+.value__accordion-item {
+  background-color: var(--body-color);
+  border: 2px solid var(--border-color);
+  border-radius: 0.5rem;
+  padding: 1rem 0.75rem;
+}
+
+.value__accordion-header {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.value__accordion-icon {
+  background-color: var(--first-color-lighten);
+  padding: 5px;
+  border-radius: 0.25rem;
+  font-size: 18px;
+  color: var(--first-color);
+  transition: 0.3s;
+}
+
+.value__accordion-title {
+  font-size: var(--small-font-size);
+}
+.value__accordion-arrow {
+  display: inline-block;
+  background-color: var(--first-color-lighten);
+}
+
 /*Rotate icon and add shadows*/
 
 /*=============== CONTACT ===============*/
