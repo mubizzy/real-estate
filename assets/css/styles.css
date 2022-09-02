@@ -435,7 +435,21 @@ button {
   right: calc(50% - 3rem);
 }
 /*=============== VALUE ===============*/
+.value__container {
+  row-gap: 3rem;
+}
 
+.value__images {
+  position: relative;
+  display: flex;
+  justify-self: center;
+}
+
+.value__orbe {
+  width: 266px;
+  height: 316px;
+  background-color: hsl(228, 24%, 97%);
+}
 /*Rotate icon and add shadows*/
 
 /*=============== CONTACT ===============*/
