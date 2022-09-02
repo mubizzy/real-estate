@@ -509,6 +509,14 @@ button {
   transition: 0.3s;
 }
 
+.value__accordion-arrow i {
+  transition: 0.4s;
+}
+
+.value__accordion-description {
+  font-size: var(--smaller-font-size);
+}
+
 /*Rotate icon and add shadows*/
 
 /*=============== CONTACT ===============*/
