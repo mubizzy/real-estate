@@ -35,6 +35,18 @@ accordionItems.forEach((item) => {
   });
 });
 
+const toggleItem = (item) => {
+  const accordionContent = item.querySelector(".questions__content");
+
+  if (item.classList.contains("accordion-open")) {
+    accordionContent.removeAttribute("style");
+    item.classList.remove("accordion-open");
+  } else {
+    accordionContent.style.height = accordionContent.scrollHeight + "px";
+    item.classList.add("accordion-open");
+  }
+};
+
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
 /*=============== SHOW SCROLL UP ===============*/
