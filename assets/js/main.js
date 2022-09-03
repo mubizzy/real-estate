@@ -1,3 +1,4 @@
+"use strict";
 /*=============== CHANGE BACKGROUND HEADER ===============*/
 function scrollHeader() {
   const header = document.getElementById("header");
