@@ -593,6 +593,22 @@ button {
   margin-bottom: 1.25rem;
 }
 
+.contact__card i {
+  padding: 6px;
+  background-color: var(--first-color-lighten);
+  border-radius: 6px;
+  font-size: 1.25rem;
+  color: var(--first-color);
+}
+
+.contact__card-title {
+  font-size: var(--normal-font-size);
+}
+
+.contact__card-description {
+  font-size: var(--smaller-font-size);
+}
+
 /*=============== SUBSCRIBE ===============*/
 
 /*=============== FOOTER ===============*/
