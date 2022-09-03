@@ -609,6 +609,20 @@ button {
   font-size: var(--smaller-font-size);
 }
 
+.contact__card-button {
+  font-size: var(--small-font-size);
+  padding: 14px 0;
+  width: 100px;
+  border-radius: 0.25rem;
+  background: var(--first-color-lighten);
+  color: var(--first-color);
+  font-weight: var(--font-semi-bold);
+  box-shadow: none;
+}
+
+.contact__card-box:hover {
+  box-shadow: 0 8px 24px hsl(228, 66%, 45%, 0.1);
+}
 /*=============== SUBSCRIBE ===============*/
 
 /*=============== FOOTER ===============*/
