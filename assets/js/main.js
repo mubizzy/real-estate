@@ -22,9 +22,11 @@ var swiperPopular = new Swiper(".popular__container", {
 const accordionItems = document.querySelectorAll(".value__accordion-item");
 
 accordionItems.forEach((item) => {
-  const accordionHeader = item.querySelector("value__accordion-header");
+  const accordionHeader = item.querySelector(".value__accordion-header");
 
   accordionHeader.addEventListener("click", () => {
+    const openItem = document.querySelector(".accordion-open");
+
     toggleItem(item);
 
     if (openItem && openItem !== item) {
@@ -35,11 +37,6 @@ accordionItems.forEach((item) => {
 
 const toggleItem = (item) => {
   const accordionContent = item.querySelector(".value__accordion-content");
-
-  accordionContent.style.height = accordionContent.scrollHeight + "px";
-  item.classList.add("accordion-open");
-
-  item.classList.add("accordion-open");
 
   if (item.classList.contains("accordion-open")) {
     accordionContent.removeAttribute("style");
