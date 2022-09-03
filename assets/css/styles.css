@@ -560,6 +560,29 @@ button {
   position: absolute;
   width: 250px;
   height: 300px;
+  overflow: hidden;
+  border-radius: 125px 125px 12px 12px;
+  inset: 0;
+  box-shadow: 0 16px 32px hsla(228, 66%, 25%, 0.25);
+  margin: auto;
+}
+
+.contact__description {
+  font-size: var(--small-font-size);
+  margin-bottom: 2.5rem;
+}
+
+.contact__card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem 0.75rem;
+}
+
+.contact__card-box {
+  background-color: var(--body-color);
+  border: 2px solid var(--border-color);
+  padding: 1.25rem 0.75em;
+  border-radius: 0.5rem;
 }
 
 /*=============== SUBSCRIBE ===============*/
@@ -569,7 +592,6 @@ button {
 /*=============== SCROLL BAR ===============*/
 
 /*=============== SCROLL UP ===============*/
-
 /* Show Scroll Up*/
 
 /*=============== BREAKPOINTS ===============*/
