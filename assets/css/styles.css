@@ -532,8 +532,24 @@ button {
 .accordion-open {
   box-shadow: 0 12px 32px hsla(228, 66%, 45%, 0.1);
 }
+.accordion-open .value__accordion-icon {
+  box-shadow: 0 4px 4px hsla(228, 66%, 45%, 0.1);
+}
+.accordion-open .value__accordion-arrow {
+  box-shadow: 0 2px 4px hsla(228, 66%, 45%, 0.1);
+}
 
 /*=============== CONTACT ===============*/
+.contact__cotainer {
+  row-gap: 3rem;
+}
+
+.contact__orbe {
+  width: 266px;
+  height: 316px;
+  background-color: hsl(228, 24%, 97%);
+  border-radius: 135px 135px 16px 16px;
+}
 
 /*=============== SUBSCRIBE ===============*/
 
