@@ -624,6 +624,17 @@ button {
   box-shadow: 0 8px 24px hsl(228, 66%, 45%, 0.1);
 }
 /*=============== SUBSCRIBE ===============*/
+.subscribe {
+  padding: 2.5rem 0;
+}
+
+.subscribe__container {
+  background-color: var(--first-color);
+  padding: 3rem 2rem;
+  border-radius: 1.25rem;
+  border: 6px solid var(--first-color-light);
+  text-align: center;
+}
 
 /*=============== FOOTER ===============*/
 
