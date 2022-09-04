@@ -69,6 +69,7 @@ function scrollActive() {
     }
   });
 }
+window.addEventListener("scroll", scrollActive);
 /*=============== SHOW SCROLL UP ===============*/
 
 /*=============== DARK LIGHT THEME ===============*/
