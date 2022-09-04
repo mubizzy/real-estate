@@ -49,7 +49,7 @@ const toggleItem = (item) => {
 };
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
-
+const sections = document.querySelectorAll("section[id]");
 /*=============== SHOW SCROLL UP ===============*/
 
 /*=============== DARK LIGHT THEME ===============*/
