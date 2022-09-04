@@ -77,6 +77,8 @@ function scrollUp() {
   if (this.scrollY >= 400) scrollUp.classList.add("show-scroll");
   else scrollUp.classList.remove("show-scroll");
 }
+
+window.addEventListener("scroll", scrollUp);
 /*=============== DARK LIGHT THEME ===============*/
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
