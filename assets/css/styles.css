@@ -686,6 +686,24 @@ button {
   display: grid;
 }
 
+.footer__content {
+  grid-template-columns: repeat(2, max-content);
+  gap: 2.5rem 4rem;
+}
+
+.footer__links {
+  row-gap: 0.5rem;
+}
+
+.footer__link {
+  color: var(--text-color);
+  transition: 0.3s;
+}
+
+.footer__link:hover {
+  color: var(--title-color);
+}
+
 /*=============== SCROLL BAR ===============*/
 
 /*=============== SCROLL UP ===============*/
