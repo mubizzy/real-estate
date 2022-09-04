@@ -50,6 +50,9 @@ const toggleItem = (item) => {
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 const sections = document.querySelectorAll("section[id]");
+
+function scrollActive() {
+  const scrollY = window.pageYOffset;
 /*=============== SHOW SCROLL UP ===============*/
 
 /*=============== DARK LIGHT THEME ===============*/
