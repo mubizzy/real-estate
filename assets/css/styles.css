@@ -758,9 +758,22 @@ button {
   background-color: hsl(228, 8%, 76%);
 }
 
-.::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background-color: hsl(228, 8%, 64%);
   border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(228, 8%, 54%);
+}
+
+.scrollup {
+  position: fixed;
+  right: 1rem;
+  bottom: 8rem;
+  background-color: var(--container-color);
+  box-shadow: 0 8px 12px hsla(228, 66%, 45%, 0.1);
+  display: inline-flex;
 }
 /*=============== SCROLL UP ===============*/
 /* Show Scroll Up*/
