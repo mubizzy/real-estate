@@ -124,14 +124,20 @@ body.dark-theme {
     Color changes in some parts of 
     the website, in dark theme 
 ==========*/
-.dark-theme .home__search {
+.dark-theme .home__search,
+.dark-theme .swiper-button-next,
+.dark-theme .swiper-button-prevs {
   border: 3px solid var(--border-color);
 }
 
 .dark-theme .nav__menu,
-.dark-theme .home__img {
+.dark-theme .home__img,
+.dark-theme .popular__card:hover,
+.dark-theme .value__img {
   box-shadow: none;
 }
+
+.da
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 1024px;
