@@ -124,7 +124,14 @@ body.dark-theme {
     Color changes in some parts of 
     the website, in dark theme 
 ==========*/
+.dark-theme .home__search {
+  border: 3px solid var(--border-color);
+}
 
+.dark-theme .nav__menu,
+.dark-theme .home__img {
+  box-shadow: none;
+}
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 1024px;
