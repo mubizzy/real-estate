@@ -101,7 +101,6 @@ button {
 /*=============== THEME ===============*/
 .change-theme {
   font-size: 1.25rem;
-  color: #fff;
   cursor: pointer;
   transition: 0.3s;
 }
