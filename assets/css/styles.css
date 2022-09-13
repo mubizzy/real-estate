@@ -943,7 +943,7 @@ body.dark-theme {
 
 @media screen and (min-width: 762px) {
   .home__container {
-    grid-template-columns: repeat(2 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding-top: 2rem;
   }
   .home__orbe {
@@ -958,9 +958,14 @@ body.dark-theme {
     justify-content: center;
   }
 
-  .value__container {
-    grid-template-columns: repeat(2 1fr);
+  .value__container,
+  .contact__container {
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
+  }
+
+  .contact__images {
+    order: 1;
   }
 }
 /* For large devices */
