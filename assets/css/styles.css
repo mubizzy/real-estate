@@ -930,6 +930,10 @@ body.dark-theme {
   }
   .contact__card {
     grid-template-columns: repeat(2, 192px);
+    justify-content: center;
+  }
+  .footer__content {
+    grid-template-columns: repeat(3, max-content);
   }
 }
 /* For large devices */
