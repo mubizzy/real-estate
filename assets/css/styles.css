@@ -891,6 +891,29 @@ body.dark-theme {
     width: 240px;
     height: 264px;
   }
+
+  .logos__container {
+    gap: 2rem 1rem;
+  }
+
+  .popular__card {
+    width: 230px;
+    padding: 0.5rem 0.5rem 0.75rem;
+  }
+
+  .value__img {
+    width: 220px;
+    height: 260px;
+  }
+
+  .value__orbe {
+    width: 236px;
+    height: 280px;
+  }
+
+  .subscribe__container {
+    padding: 2rem 1rem;
+  }
 }
 
 /* For medium devices */
