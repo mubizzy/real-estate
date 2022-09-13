@@ -855,7 +855,13 @@ body.dark-theme {
 }
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-
+@media screen and (max-width: 350px){
+  .container{
+    margin-left: 1rem;
+  }
+}
+  
+}
 /* For medium devices */
 
 /* For large devices */
