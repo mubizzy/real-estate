@@ -1019,5 +1019,22 @@ body.dark-theme {
   .nav__button {
     display: inline-block;
   }
+
+  .active-link {
+    background: none;
+    box-shadow: none;
+    color: var(--first-color);
+    font-weight: var(--font-medium);
+  }
+
+  .change-theme {
+    margin: 0 3rem;
+    color: var(--text-color-light);
+  }
+
+  .scroll-header .nav__link,
+  .scroll-header .change-theme {
+    color: var(--text-color);
+  }
 }
 /* For 2K & 4K resolutions */ ;
