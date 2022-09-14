@@ -1154,5 +1154,11 @@ body.dark-theme {
     font-size: var(--normal-font-size);
     padding: 0 8rem;
   }
+  .subscribe__button {
+    font-size: var(--normal-font-size);
+  }
+  .footer__content {
+    grid-template-columns: repeat(4, max-content);
+  }
 }
 /* For 2K & 4K resolutions */ ;
