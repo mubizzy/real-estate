@@ -1065,5 +1065,11 @@ body.dark-theme {
   .home__value {
     column-gap: 3.5rem;
   }
+
+  .home__orbe {
+    width: 584px;
+    height: 611px;
+    border-radius: 256px;
+  }
 }
 /* For 2K & 4K resolutions */ ;
