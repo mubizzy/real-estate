@@ -1171,5 +1171,9 @@ body.dark-theme {
     justify-content: space-between;
     padding-bottom: 2rem;
   }
+  .show-scroll {
+    bottom: 3rem;
+    right: 3rem;
+  }
 }
 /* For 2K & 4K resolutions */ ;
