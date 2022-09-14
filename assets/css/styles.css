@@ -1160,5 +1160,16 @@ body.dark-theme {
   .footer__content {
     grid-template-columns: repeat(4, max-content);
   }
+  .footer__title {
+    margin-bottom: 1.5rem;
+  }
+  .footer__links {
+    row-gap: 1rem;
+  }
+  .footer__info {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+  }
 }
 /* For 2K & 4K resolutions */ ;
