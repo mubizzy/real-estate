@@ -1073,10 +1073,22 @@ body.dark-theme {
   }
 
   .home__img {
-    width: 584px;
+    width: 472px;
     height: 634px;
     border-radius: 236px 236px 12px 12px;
     bottom: -2.5rem;
+  }
+
+  .logos__img {
+    height: 100px;
+  }
+
+  .popular__container {
+    padding-top: 3rem;
+  }
+
+  .popular__card {
+    width: 320px;
   }
 }
 /* For 2K & 4K resolutions */ ;
