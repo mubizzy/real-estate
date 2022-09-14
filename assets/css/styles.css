@@ -1085,10 +1085,25 @@ body.dark-theme {
 
   .popular__container {
     padding-top: 3rem;
+    /* text-align: center; */
   }
 
   .popular__card {
     width: 320px;
+    padding: 0.75rem 0.75rem 2rem;
+  }
+
+  .popular__data {
+    padding: 0rem 0.25rem 0 0.75rem;
+  }
+
+  .value__container {
+    align-items: flex-start;
+    column-gap: 5rem;
+  }
+  .value__orbe {
+    width: 501px;
+    height: 641px;
   }
 }
 /* For 2K & 4K resolutions */ ;
