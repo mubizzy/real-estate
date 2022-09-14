@@ -1069,7 +1069,14 @@ body.dark-theme {
   .home__orbe {
     width: 584px;
     height: 611px;
-    border-radius: 256px;
+    border-radius: 256px 256px 0 0;
+  }
+
+  .home__img {
+    width: 584px;
+    height: 634px;
+    border-radius: 236px 236px 12px 12px;
+    bottom: -2.5rem;
   }
 }
 /* For 2K & 4K resolutions */ ;
