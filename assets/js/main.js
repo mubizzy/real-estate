@@ -126,5 +126,6 @@ sr.reveal(`.home__description`, { delay: 500 });
 sr.reveal(`.home__search`, { delay: 600 });
 sr.reveal(`.home__value`, { delay: 500 });
 sr.reveal(`.home__images`, { delay: 800, origin: "bottom" });
-sr.reveal(`.logo__img`, { interval: 100 });
-sr.reveal(`.home__social`, { delay: 600 });
+sr.reveal(`.logos__img`, { interval: 100 });
+sr.reveal(`.value__images`, ".contact__content", { origin: "left" });
+sr.reveal(`.value__content`, { origin: "right" });
