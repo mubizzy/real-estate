@@ -18,6 +18,19 @@ var swiperPopular = new Swiper(".popular__container", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  breakpoints: {
+    576: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 25,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 25,
+    },
+  },
 });
 /*=============== VALUE ACCORDION ===============*/
 const accordionItems = document.querySelectorAll(".value__accordion-item");
