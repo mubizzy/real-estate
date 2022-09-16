@@ -1175,5 +1175,10 @@ body.dark-theme {
     bottom: 3rem;
     right: 3rem;
   }
+
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 /* For 2K & 4K resolutions */ ;
