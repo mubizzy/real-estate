@@ -122,5 +122,5 @@ const sr = ScrollReveal({
 });
 
 sr.reveal(`.home__title`);
-sr.reveal(`.home__img`, { delay: 500 });
-sr.reveal(`.home__social`, { delay: 600 });
+sr.reveal(`.home__description`, { delay: 500 });
+sr.reveal(`.home__search`, { delay: 600 });
