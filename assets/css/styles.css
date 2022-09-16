@@ -1119,10 +1119,11 @@ body.dark-theme {
   .value__img img,
   .contact__img img {
     max-width: initial;
-    width: 400px;
+    width: 490px;
   }
   .value__description {
     font-size: var(--normal-font-size);
+    margin-bottom: 2.5rem;
   }
 
   .value__accordion-item {
