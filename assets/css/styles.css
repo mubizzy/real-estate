@@ -1067,7 +1067,7 @@ body.dark-theme {
   }
 
   .home__orbe {
-    width: 584px;
+    width: 504px;
     height: 611px;
     border-radius: 256px 256px 0 0;
   }
@@ -1079,7 +1079,7 @@ body.dark-theme {
     bottom: -2.5rem;
   }
 
-  .logos__img {
+  .logos__img img {
     height: 100px;
   }
 
