@@ -120,3 +120,5 @@ const sr = ScrollReveal({
   delay: 400,
   // reset: true
 });
+
+sr.reveal(`.home__title`);
