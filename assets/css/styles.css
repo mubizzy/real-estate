@@ -616,12 +616,6 @@ body.dark-theme {
   display: flex;
   justify-content: center;
 }
-.contact__orbe {
-  width: 266px;
-  height: 316px;
-  background-color: hsl(228, 24%, 97%);
-  border-radius: 135px 135px 16px 16px;
-}
 
 .contact__img {
   position: absolute;
@@ -756,6 +750,11 @@ body.dark-theme {
 .footer__content {
   grid-template-columns: repeat(2, max-content);
   gap: 2.5rem 4rem;
+}
+
+.footer__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 1rem;
 }
 
 .footer__links {
