@@ -253,12 +253,6 @@ body.dark-theme {
     transition: 0.4s;
   }
 
-  .nav__list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
   .nav_link {
     color: var(--text-color);
     display: flex;
@@ -415,6 +409,12 @@ body.dark-theme {
   display: none;
 }
 /*=============== LOGOS ===============*/
+.logos__container {
+  padding-top: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem 2rem;
+  justify-items: center;
+}
 
 .logo__img img {
   height: 60px;
