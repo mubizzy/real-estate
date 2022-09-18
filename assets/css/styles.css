@@ -394,18 +394,6 @@ body.dark-theme {
 }
 
 /*=============== BUTTON ===============*/
-.button {
-  display: inline-block;
-  background: linear-gradient(101deg, hsl(228, 66%, 53%), hsl(228, 66%, 47%));
-  color: #fff;
-  padding: 14px 28px;
-  border-radius: 0.5rem;
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-medium);
-  box-shadow: 0 4px 8px hsl(228, 66%, 45%, 0.25);
-  transition: 0.3s;
-  cursor: pointer;
-}
 
 .button:hover {
   box-shadow: 0 4px 12px hsl(228, 66%, 45%, 0.25);
@@ -565,6 +553,16 @@ body.dark-theme {
 
 .value__accordion-title {
   font-size: var(--small-font-size);
+}
+.value__accordion-arrow {
+  display: inline-block;
+  background-color: var(--first-color-lighten);
+  padding: 0.25rem;
+  color: var(--first-color);
+  border-radius: 2px;
+  font-size: 10px;
+  margin-left: auto;
+  transition: 0.3s;
 }
 
 .value__accordion-arrow i {
