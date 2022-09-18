@@ -1020,13 +1020,6 @@ body.dark-theme {
     display: inline-block;
   }
 
-  .active-link {
-    background: none;
-    box-shadow: none;
-    color: var(--first-color);
-    font-weight: var(--font-medium);
-  }
-
   .change-theme {
     margin: 0 3rem;
     color: var(--text-color-light);
@@ -1070,6 +1063,13 @@ body.dark-theme {
     width: 504px;
     height: 611px;
     border-radius: 256px 256px 0 0;
+  }
+
+  .home__img {
+    width: 472px;
+    height: 634px;
+    border-radius: 236px 236px 12px 12px;
+    bottom: -2.5rem;
   }
 
   .logos__img img {
