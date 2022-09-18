@@ -566,19 +566,14 @@ body.dark-theme {
 .value__accordion-title {
   font-size: var(--small-font-size);
 }
-.value__accordion-arrow {
-  display: inline-block;
-  background-color: var(--first-color-lighten);
-  padding: 0.25rem;
-  color: var(--first-color);
-  border-radius: 2px;
-  font-size: 10px;
-  margin-left: auto;
-  transition: 0.3s;
-}
 
 .value__accordion-arrow i {
   transition: 0.4s;
+}
+
+.value__accordion-description {
+  font-size: var(--smaller-font-size);
+  padding: 1.25rem 2.5rem 0 2.75rem;
 }
 
 .value__accordion-content {
