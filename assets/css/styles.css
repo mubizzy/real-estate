@@ -1190,4 +1190,7 @@ body.dark-theme {
 }
 
 @media screen and (min-width: 3840px) {
+  body {
+    zoom: 1.5;
+  }
 }
