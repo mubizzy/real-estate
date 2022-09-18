@@ -1098,7 +1098,7 @@ body.dark-theme {
   }
 
   .value__container,
-  .contact__cotainer {
+  .contact__container {
     align-items: flex-start;
     column-gap: 5rem;
   }
@@ -1182,4 +1182,6 @@ body.dark-theme {
     margin-right: auto;
   }
 }
-/* For 2K & 4K resolutions */ ;
+/* For 2K & 4K resolutions */
+@media screen and (min-width: 2048px) {
+}
