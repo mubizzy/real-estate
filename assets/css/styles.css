@@ -581,11 +581,6 @@ body.dark-theme {
   transition: 0.4s;
 }
 
-.value__accordion-description {
-  font-size: var(--smaller-font-size);
-  padding: 1.25rem 2.5rem 0 2.75rem;
-}
-
 .value__accordion-content {
   overflow: hidden;
   height: 0;
@@ -615,6 +610,12 @@ body.dark-theme {
   position: relative;
   display: flex;
   justify-content: center;
+}
+.contact__orbe {
+  width: 266px;
+  height: 316px;
+  background-color: hsl(228, 24%, 97%);
+  border-radius: 135px 135px 16px 16px;
 }
 
 .contact__img {
