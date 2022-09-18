@@ -758,11 +758,6 @@ body.dark-theme {
   gap: 2.5rem 4rem;
 }
 
-.footer__title {
-  font-size: var(--h3-font-size);
-  margin-bottom: 1rem;
-}
-
 .footer__links {
   row-gap: 0.5rem;
 }
@@ -1018,6 +1013,13 @@ body.dark-theme {
 
   .nav__button {
     display: inline-block;
+  }
+
+  .active-link {
+    background: none;
+    box-shadow: none;
+    color: var(--first-color);
+    font-weight: var(--font-medium);
   }
 
   .change-theme {
