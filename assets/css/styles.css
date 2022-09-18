@@ -1072,13 +1072,6 @@ body.dark-theme {
     border-radius: 256px 256px 0 0;
   }
 
-  .home__img {
-    width: 472px;
-    height: 634px;
-    border-radius: 236px 236px 12px 12px;
-    bottom: -2.5rem;
-  }
-
   .logos__img img {
     height: 100px;
   }
@@ -1097,6 +1090,11 @@ body.dark-theme {
     padding: 0rem 0.25rem 0 0.75rem;
   }
 
+  .value__container,
+  .contact__container {
+    align-items: flex-start;
+    column-gap: 5rem;
+  }
   .value__orbe,
   .contact__orbe {
     width: 501px;
