@@ -1188,3 +1188,6 @@ body.dark-theme {
     zoom: 1.5;
   }
 }
+
+@media screen and (min-width: 3840px) {
+}
