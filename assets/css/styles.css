@@ -411,13 +411,10 @@ body.dark-theme {
   box-shadow: 0 4px 12px hsl(228, 66%, 45%, 0.25);
 }
 
-/*=============== LOGOS ===============*/
-.logos__container {
-  padding-top: 2rem;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 3rem 2rem;
-  justify-items: center;
+.nav__button {
+  display: none;
 }
+/*=============== LOGOS ===============*/
 
 .logo__img img {
   height: 60px;
